@@ -1,4 +1,6 @@
-score	original_tax_id	orig_organism	target_type	target_name	target_chembl_id	drug_name	drug_chembl_id
-4350.9	1773	Mycobacterium tuberculosis	PROTEIN NUCLEIC-ACID COMPLEX	70S ribosome	CHEMBL2363965	VIOMYCIN SULFATE	CHEMBL3989823
-4350.9	1773	Mycobacterium tuberculosis	PROTEIN NUCLEIC-ACID COMPLEX	70S ribosome	CHEMBL2363965	CAPREOMYCIN SULFATE	CHEMBL2218913
-4350.9	1773	Mycobacterium tuberculosis	PROTEIN NUCLEIC-ACID COMPLEX	70S ribosome	CHEMBL2363965	PYRAZINAMIDE	CHEMBL614
+score	original tax_id	original_organism	target	orf	pref_name	chembl_id	mechanism_of_action	max phase	first approval
+9567.8	9606	Homo sapiens	CHEMBL3987	MN908947.3_281					
+9562.6	9606	Homo sapiens	CHEMBL5542	MN908947.3_281					
+4350.9	1773	Mycobacterium tuberculosis	CHEMBL2363965	MN908947.3_281	VIOMYCIN SULFATE	CHEMBL3989823	70S ribosome inhibitor	4	1982
+4350.9	1773	Mycobacterium tuberculosis	CHEMBL2363965	MN908947.3_281	CAPREOMYCIN SULFATE	CHEMBL2218913	70S ribosome inhibitor	4	1971
+4350.9	1773	Mycobacterium tuberculosis	CHEMBL2363965	MN908947.3_281	PYRAZINAMIDE	CHEMBL614	70S ribosome inhibitor	4	1971

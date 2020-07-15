@@ -24,9 +24,9 @@ get_kmeans_threshold<-function(conn, tax_id, clusters=2){
      from hmmer_statistics h
               join target_dictionary td 
                on h.target = td.chembl_id 
-               join drug_mechanism dm 
-               ON dm.tid = td.tid 
-               join molecule_dictionary md 
+               left outer join drug_mechanism dm 
+               ON td.tid = dm.tid 
+               left outer join molecule_dictionary md 
               ON dm.molregno = md.molregno 
           WHERE h.tax_id ='
     , tax_id
